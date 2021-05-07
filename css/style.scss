@@ -87,4 +87,37 @@ section {
 
 }
 
-/* Discover the benefit */
+@media screen and (min-width: 992px) {
+    section {
+      flex-direction: row-reverse;      
+    }
+
+    ul li, section .content h1, section .content p { text-align: left; }
+
+    
+
+    section .content {
+        padding: 4rem;
+        width:50%;
+
+        h1 {
+            font-size: 2.25rem;
+            line-height: 44px;
+
+            
+        }
+    }
+
+    section .tile-image {
+        width: 50%;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;  
+    }
+
+    img { border: 0;}
+
+    ul.stats {
+        display: flex;
+        justify-content: space-between;
+    }
+  }
