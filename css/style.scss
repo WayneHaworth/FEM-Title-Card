@@ -1,0 +1,18 @@
+//Reset
+*{margin:0;padding:0;outline:0;font-size:1em;font-weight:normal;font-style:normal;border:0;text-decoration:none;list-style-type:none}
+
+//Primary
+$main-background: hsl(233, 47%, 7%);
+$card-background: hsl(244, 38%, 16%);
+$soft-accent: hsl(277, 64%, 61%);
+
+//Neutral
+$white: hsl(0, 0%, 100%);
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$stat-white: hsla(0, 0%, 100%, 0.6);
+
+body {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    background-color: $main-background;
+}
