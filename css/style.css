@@ -14,5 +14,87 @@ body {
   font-size: 15px;
   font-family: 'Inter', sans-serif;
   background-color: #090b1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
+section {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.5rem;
+  margin-top: 5.5rem;
+  background-color: #1b1938;
+}
+
+section .content {
+  padding: 1rem;
+}
+
+section .tile-image {
+  position: relative;
+  background: rgba(170, 92, 219, 0.55);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  mix-blend-mode: overlay;
+}
+
+section h1, section p, section .stats {
+  text-align: center;
+  margin: 1.5rem 1rem;
+}
+
+section h1 {
+  color: white;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+section h1 span {
+  color: #aa5cdb;
+  font-weight: inherit;
+}
+
+section p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+}
+
+section ul.stats {
+  margin-top: 3rem;
+}
+
+section ul.stats li {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 2rem 0;
+}
+
+section ul.stats h2 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 0.5rem;
+}
+
+/* Discover the benefit */
 /*# sourceMappingURL=style.css.map */
